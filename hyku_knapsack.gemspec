@@ -27,5 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", ">= 5.2.0"
   spec.add_dependency "hyku-api", github: "ubiquitypress/hyku-api", branch: "main"
   spec.add_dependency "hyku_plugin_google_cloud_url_mask", github: "ubiquitypress/hyku_plugin_google_cloud_url_mask", branch: "main", require: false
+  spec.add_dependency "hyku-plugin-schema-yaml", github: "ubiquitypress/hyku-plugin-schema-yaml", branch: "develop"
   spec.add_dependency "blacklight_advanced_search"
 end
