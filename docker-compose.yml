@@ -51,7 +51,7 @@ services:
       file: hyrax-webapp/docker-compose-ext-solr.yml
       service: base
     image: ghcr.io/samvera/hyku/base:${TAG:-latest}
-    command: bash -l -c "echo 'base is only used for building base images, which in turn reduces image build times. It does not need to be run'"
+    command: bash -l -c "echo 'container not needed, exiting'"
 
   web:
     <<: *app
@@ -104,7 +104,7 @@ services:
       service: initialize_app
     command:
       - >
-        db-migrate-seed.sh
+        bundle && db-migrate-seed.sh
 
   redis:
     extends:
