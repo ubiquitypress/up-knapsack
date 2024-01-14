@@ -8,7 +8,11 @@
 
 * Fix workBase in schema plugin to reference this include back
 ```
-#TODO: Work Behavior - Uncomment this
+      #TODO: re-add this
+      #include Hyrax::Autopopulation::AutopopulationProperty
+
+      #TODO: re-add Behavior
       #include HykuAddons::TaskMaster::WorkBehavior
+
 ```
 
