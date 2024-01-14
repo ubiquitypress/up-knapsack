@@ -5,3 +5,10 @@
 * SMTP configuration
 
 * UNA's config should be in a gem, but for now we're doing it here so we can test it
+
+* Fix workBase in schema plugin to reference this include back
+```
+#TODO: Work Behavior - Uncomment this
+      #include HykuAddons::TaskMaster::WorkBehavior
+```
+
