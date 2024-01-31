@@ -58,14 +58,18 @@ services:
     extends:
       file: hyrax-webapp/docker-compose-ext-solr.yml
       service: web
-    # Uncomment command to access container with out starting bin/web. Useful for debugging or updating Gemfile.lock
-    # command: sleep infinity
+    # command left commented for situations where the Gemfile.lock needs to be updated before the app starts
+    # command: bash -l -c "sleep infinity"
+    ports:
+      - "3000:3000"
     environment:
       # This line is what makes the knapsack include use the local code instead of the remote gem
       - BUNDLE_LOCAL__HYKU_KNAPSACK=/app/samvera
       - BUNDLE_DISABLE_LOCAL_BRANCH_CHECK=true
       - VIRTUAL_PORT=3000
       - VIRTUAL_HOST=.hyku.test
+      - WORKOS_API_KEY=sk_test_a2V5XzAxR0c3RFJIOURYM0NSNUdCTjU2Q0VCTkVDLFcxUHliQWkzd3lNOFdtZXVRbWVxT3NjNnM
+      - WORKOS_CLIENT_ID=client_01GG7DRH9KVK3QNX2S6RGWA3CQ
 
   worker:
     <<: *app
