@@ -2,7 +2,7 @@
 # Generated via
 #  `rails generate hyrax:work UnaOpenEducationalResource`
 class UnaOpenEducationalResourceIndexer < Hyrax::WorkIndexer
-  include Hyku::Schema::Hyrax::Indexer(:una_open_educational_resource)
+  include Hyku::Plugin::Schema::Yaml::Hyrax::Indexer(:una_open_educational_resource)
   include Hyrax::IndexesBasicMetadata
   include Hyrax::IndexesLinkedMetadata
 end
