@@ -3,8 +3,8 @@ class UnaOpenEducationalResource < ActiveFedora::Base
   include Hyrax::WorkBehavior
   include Hyrax::DOI::DataCiteDOIBehavior
 
-  include Hyku::Schema::WorkBase
-  include Hyku::Schema::Hyrax::Schema(:una_open_educational_resource)
+  include Hyku::Plugin::Schema::Yaml::WorkBase
+  include Hyku::Plugin::Schema::Yaml::Hyrax::Schema(:una_open_educational_resource)
 
   # Included after other field definitions
   include Hyrax::BasicMetadata

@@ -12,7 +12,7 @@
       #include Hyrax::Autopopulation::AutopopulationProperty
 
       #TODO: re-add Behavior
-      #include HykuAddons::TaskMaster::WorkBehavior
+      #include HykuKnapsack::TaskMaster::WorkBehavior
 
 ```
 
