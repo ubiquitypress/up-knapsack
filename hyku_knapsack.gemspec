@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "hyku_plugin_google_cloud_url_mask"
   spec.add_dependency "hyrax-autopopulation"
+  spec.add_dependency "hyrax-orcid"
   spec.add_dependency "hyku-plugin-schema-yaml"
 
   spec.add_dependency "blacklight_advanced_search"
