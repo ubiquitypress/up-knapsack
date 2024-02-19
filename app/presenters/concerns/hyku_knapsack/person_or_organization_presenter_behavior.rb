@@ -15,7 +15,7 @@ module HykuKnapsack
     # TODO: Add view_context and use link_to and image_tag instead of <%== in the view
     # TODO: Need to normalize ids in the work model in  order for these methods to work in all cases (and stay simple)
     class PersonOrOrganization < Struct.new(:display_name, :orcid, :isni, :ror, :grid, :wikidata)
-      include Hyrax::Orcid::OrcidHelper
+      #include Hyrax::Orcid::OrcidHelper
 
       def orcid_url
         "https://orcid.org/#{validate_orcid(orcid)}" if orcid.present?
