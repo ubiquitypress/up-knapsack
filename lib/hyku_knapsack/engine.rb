@@ -2,6 +2,12 @@ module HykuKnapsack
   class Engine < ::Rails::Engine
     isolate_namespace HykuKnapsack
 
+    initializer "load_features" do
+      # Features from config/features.rb in your engine are merged with
+      # any application features.
+      Flipflop::FeatureLoader.current.append(self)
+    end
+
     initializer :append_migrations do |app|
       # only add the migrations if they are not already copied
       # via the rake task. Allows gem to work both with the install:migrations
