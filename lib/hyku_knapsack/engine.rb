@@ -16,6 +16,12 @@ module HykuKnapsack
       I18n.load_path = I18n.load_path.reverse.uniq.reverse
       I18n.backend.reload!
     end
+    
+    initializer "load_features" do
+      # Features from config/features.rb in your engine are merged with
+      # any application features.
+      Flipflop::FeatureLoader.current.append(self)
+    end
 
     initializer :append_migrations do |app|
       # only add the migrations if they are not already copied
