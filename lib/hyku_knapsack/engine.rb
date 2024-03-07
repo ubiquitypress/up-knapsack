@@ -80,6 +80,17 @@ module HykuKnapsack
         paths = [HykuKnapsack::Engine.root.join('app', 'views').to_s] + paths
         klass.view_paths = paths.uniq
       end
+
+      #my_engine_root = HykuKnapsack::Engine.root.to_s
+      #paths = ActionController::Base.view_paths.collect{|p| p.to_s}
+      
+      # Remove the Hyrax Orcid JSON Actor as we have our own - this should not be namespaced
+      Hyrax::CurationConcern.actor_factory.middlewares.delete(Hyrax::Actors::Orcid::JSONFieldsActor)
+
+      # This is the opposite of what you usually want to do. Normally app views override engine views
+      # but in our case things in the Knapsack override what is in the application
+      #paths = [my_engine_root + '/app/views'] + paths
+      #ActionController::Base.view_paths = paths.uniq
       ::ApplicationController.send :helper, HykuKnapsack::Engine.helpers
 
       ##
