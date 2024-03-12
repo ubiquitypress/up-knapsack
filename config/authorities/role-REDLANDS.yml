@@ -1,0 +1,187 @@
+terms:
+ - id: Actor
+   term: Actor
+   active: true
+ - id: Animator
+   term: Animator
+   active: true
+ - id: Artist
+   term: Artist
+   active: true
+ - id: Assistant Director
+   term: Assistant Director
+   active: true
+ - id: Author
+   term: Author
+   active: true
+ - id: Choreographer
+   term: Choreographer
+   active: true
+ - id: Collaborative Doctoral Partner
+   term: Collaborative Doctoral Partner
+   active: false
+ - id: Collaborative Institution
+   term: Collaborative Institution
+   active: true
+ - id: Composer
+   term: Composer
+   active: true
+ - id: Conductor
+   term: Conductor
+   active: true
+ - id: Contact Person
+   term: Contact Person
+   active: false
+ - id: Contributor
+   term: Contributor
+   active: false
+ - id: Costume Designer
+   term: Costume Designer
+   active: true
+ - id: Curator
+   term: Curator
+   active: true
+ - id: Data Analyzer
+   term: Data Analyzer
+   active: true
+ - id: Data Collector
+   term: Data Collector
+   active: true
+ - id: Data Curator
+   term: Data Curator
+   active: true
+ - id: Data Manager
+   term: Data Manager
+   active: true
+ - id: Data Visualizer
+   term: Data Visualizer
+   active: true
+ - id: Director
+   term: Director
+   active: true
+ - id: Designer
+   term: Designer
+   active: true
+ - id: Distributor
+   term: Distributor
+   active: false
+ - id: Dramaturg
+   term: Dramaturg
+   active: true
+ - id: Editor
+   term: Editor
+   active: true
+ - id: Examiner
+   term: Examiner
+   active: false
+ - id: Hosting Institution
+   term: Hosting Institution
+   active: false
+ - id: Illustrator
+   term: Illustrator
+   active: true
+ - id: Interviewee
+   term: Interviewee
+   active: true
+ - id: Interviewer
+   term: Interviewer
+   active: true
+ - id: Lighting Designer
+   term: Lighting Designer
+   active: true
+ - id: Methodology Designer
+   term: Methodology Designer
+   active: true
+ - id: Music Director
+   term: Music Director
+   active: true
+ - id: Narrator
+   term: Narrator
+   active: true
+ - id: Performer
+   term: Performer
+   active: true
+ - id: Playwright
+   term: Playwright
+   active: true
+ - id: Photographer
+   term: Photographer
+   active: true
+ - id: Presenter
+   term: Presenter
+   active: true
+ - id: Producer
+   term: Producer
+   active: true
+ - id: Project Designer
+   term: Project Designer
+   active: true
+ - id: Project Leader
+   term: Project Leader
+   active: true
+ - id: Project Manager
+   term: Project Manager
+   active: true
+ - id: Project Member
+   term: Project Member
+   active: true
+ - id: Publisher
+   term: Publisher
+   active: false
+ - id: Puppet Designer
+   term: Puppet Designer
+   active: false
+ - id: Registration Agency
+   term: Registration Agency
+   active: false
+ - id: Registration Authority
+   term: Registration Authority
+   active: false
+ - id: Related Person
+   term: Related Person
+   active: false
+ - id: Researcher
+   term: Researcher
+   active: false
+ - id: Research Group
+   term: Research Group
+   active: false
+ - id: Rights Holder
+   term: Rights Holder
+   active: false
+ - id: Scenic Director
+   term: Scenic Director
+   active: true
+ - id: Scientific Advisor
+   term: Scientific Advisor
+   active: false
+ - id: Set Designer
+   term: Set Designer
+   active: true
+ - id: Sound Designer
+   term: Sound Designer
+   active: true
+ - id: Sponsor
+   term: Sponsor
+   active: false
+ - id: Stage Director
+   term: Stage Director
+   active: true
+ - id: Supervisor
+   term: Supervisor
+   active: false
+ - id: Transcriber
+   term: Transcriber
+   active: false
+ - id: Translator
+   term: Translator
+   active: true
+ - id: Videographer
+   term: Videographer
+   active: true
+ - id: Work Package Leader
+   term: Work Package Leader
+   active: false
+ - id : Other
+   term: Other Contributor
+   active: true
