@@ -1,0 +1,31 @@
+terms:
+  - id: Article
+    term: Article
+  - id: Back Matter
+    term: Back Matter
+  - id: Book Review
+    term: Book Review
+  - id: Casenotes
+    term: Casenotes
+  - id: Comment
+    term: Comment
+  - id: Essay
+    term: Essay
+  - id: Front Matter
+    term: Front Matter
+  - id: Notes
+    term: Notes
+  - id: Other
+    term: Other
+  - id: Poem
+    term: Poem
+  - id: Popular Press
+    term: Popular Press
+  - id: Response
+    term: Response
+  - id: Survey
+    term: Survey
+  - id: Symposium Report or Article
+    term: Symposium Report or Article
+  - id: White Paper
+    term: White Paper
