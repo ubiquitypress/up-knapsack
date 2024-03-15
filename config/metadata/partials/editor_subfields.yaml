@@ -5,7 +5,7 @@ editor_name_type:
     required: false
     multiple: false
     type: select
-    authority: HykuAddons::NameTypeService
+    authority: Hyku::Plugin::Schema::Yaml::NameTypeService
 editor_family_name:
   type: string
   form:
@@ -36,7 +36,7 @@ editor_institutional_relationship:
     required: false
     multiple: false
     type: select
-    authority: HykuAddons::InstitutionalRelationshipService
+    authority: Hyku::Plugin::Schema::Yaml::InstitutionalRelationshipService
     display_for:
     - Personal
 editor_organization_name:

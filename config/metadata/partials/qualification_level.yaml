@@ -10,4 +10,4 @@ qualification_level:
     primary: false
     multiple: false
     type: select
-    authority: HykuAddons::QualificationLevelService
+    authority: Hyku::Plugin::Schema::Yaml::QualificationLevelService

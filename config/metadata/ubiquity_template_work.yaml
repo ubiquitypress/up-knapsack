@@ -35,7 +35,7 @@ attributes:
       primary: true
       multiple: true
       type: select
-      authority: HykuAddons::ResourceTypesService
+      authority: Hyku::Plugin::Schema::Yaml::ResourceTypesService
       include_blank: true
       input: single_multi_value_select
   alt_class:
@@ -48,7 +48,7 @@ attributes:
       primary: true
       multiple: false
       type: select
-      authority: HykuAddons::AltClassService
+      authority: Hyku::Plugin::Schema::Yaml::AltClassService
       include_blank: true
       input: single_multi_value_select
   creator:
@@ -68,7 +68,7 @@ attributes:
           required: true
           multiple: false
           type: select
-          authority: HykuAddons::NameTypeService
+          authority: Hyku::Plugin::Schema::Yaml::NameTypeService
       creator_family_name:
         type: string
         form:
@@ -115,7 +115,7 @@ attributes:
           required: false
           multiple: false
           type: select
-          authority: HykuAddons::InstitutionalRelationshipService
+          authority: Hyku::Plugin::Schema::Yaml::InstitutionalRelationshipService
           attributes:
             multiple: multiple
           display_for:
@@ -186,7 +186,7 @@ attributes:
           required: false
           multiple: false
           type: select
-          authority: HykuAddons::NameTypeService
+          authority: Hyku::Plugin::Schema::Yaml::NameTypeService
       contributor_family_name:
         type: string
         form:
@@ -217,7 +217,7 @@ attributes:
           required: false
           multiple: false
           type: select
-          authority: HykuAddons::ContributorInstitutionalRelationshipService
+          authority: Hyku::Plugin::Schema::Yaml::ContributorInstitutionalRelationshipService
           attributes:
             multiple: multiple
           display_for:
@@ -269,7 +269,7 @@ attributes:
           required: false
           multiple: true
           type: select
-          authority: HykuAddons::RoleService
+          authority: Hyku::Plugin::Schema::Yaml::RoleService
           display_for:
           - Personal
           - Organizational
@@ -362,7 +362,7 @@ attributes:
       primary: false
       multiple: true
       type: select
-      authority: HykuAddons::InstitutionService
+      authority: Hyku::Plugin::Schema::Yaml::InstitutionService
   org_unit:
     type: string
     predicate: http://www.w3.org/ns/org#OrganizationalUnit
@@ -521,7 +521,7 @@ attributes:
           required: false
           multiple: false
           type: select
-          authority: HykuAddons::NameTypeService
+          authority: Hyku::Plugin::Schema::Yaml::NameTypeService
       editor_family_name:
         type: string
         form:
@@ -552,7 +552,7 @@ attributes:
           required: false
           multiple: false
           type: select
-          authority: HykuAddons::InstitutionalRelationshipService
+          authority: Hyku::Plugin::Schema::Yaml::InstitutionalRelationshipService
           display_for:
           - Personal
       editor_organization_name:
@@ -833,7 +833,7 @@ attributes:
       primary: false
       multiple: true
       type: select
-      authority: HykuAddons::LanguageService
+      authority: Hyku::Plugin::Schema::Yaml::LanguageService
   license:
     predicate: http://purl.org/dc/terms/rights
     multiple: true
@@ -844,7 +844,7 @@ attributes:
       primary: false
       multiple: true
       type: select
-      authority: HykuAddons::LicenseService
+      authority: Hyku::Plugin::Schema::Yaml::LicenseService
   rights_statement:
     predicate: http://www.europeana.eu/schemas/edm/rights
     multiple: false
@@ -855,7 +855,7 @@ attributes:
       primary: false
       multiple: false
       type: select
-      authority: HykuAddons::RightsStatementService
+      authority: Hyku::Plugin::Schema::Yaml::RightsStatementService
   rights_holder:
     type: string
     predicate: http://purl.org/dc/terms/rightsHolder
@@ -878,7 +878,7 @@ attributes:
       primary: false
       multiple: false
       type: select
-      authority: HykuAddons::QualificationNameService
+      authority: Hyku::Plugin::Schema::Yaml::QualificationNameService
   qualification_level:
     type: string
     predicate: http://id.loc.gov/ontologies/bibframe/degree
@@ -890,7 +890,7 @@ attributes:
       primary: false
       multiple: false
       type: select
-      authority: HykuAddons::QualificationLevelService
+      authority: Hyku::Plugin::Schema::Yaml::QualificationLevelService
   alternate_identifier:
     type: string
     predicate: http://id.loc.gov/ontologies/bibframe/Local
@@ -939,7 +939,7 @@ attributes:
           required: false
           multiple: false
           type: select
-          authority: HykuAddons::RelatedIdentifierTypeService
+          authority: Hyku::Plugin::Schema::Yaml::RelatedIdentifierTypeService
           include_blank: true
       relation_type:
         type: string
@@ -947,7 +947,7 @@ attributes:
           required: false
           multiple: false
           type: select
-          authority: HykuAddons::RelationTypeService
+          authority: Hyku::Plugin::Schema::Yaml::RelationTypeService
           include_blank: true
   refereed:
     type: string
@@ -960,7 +960,7 @@ attributes:
       primary: false
       multiple: false
       type: select
-      authority: HykuAddons::RefereedService
+      authority: Hyku::Plugin::Schema::Yaml::RefereedService
   description:
     type: text
     predicate: http://purl.org/dc/terms/description
@@ -1051,7 +1051,7 @@ attributes:
       primary: false
       multiple: false
       type: select
-      authority: HykuAddons::IrbStatusService
+      authority: Hyku::Plugin::Schema::Yaml::IrbStatusService
   subject:
     predicate: http://purl.org/dc/elements/1.1/subject
     multiple: true
@@ -1062,7 +1062,7 @@ attributes:
       primary: false
       multiple: true
       type: select
-      authority: HykuAddons::SubjectService
+      authority: Hyku::Plugin::Schema::Yaml::SubjectService
   additional_links:
     type: string
     predicate: http://schema.org/significantLinks
@@ -1286,7 +1286,7 @@ attributes:
       primary: false
       multiple: true
       type: select
-      authority: HykuAddons::AudienceService
+      authority: Hyku::Plugin::Schema::Yaml::AudienceService
   related_material:
     type: string
     predicate: http://id.loc.gov/ontologies/bibframe/relatedTo
@@ -1484,7 +1484,7 @@ attributes:
       primary: false
       multiple: false
       type: select
-      authority: HykuAddons::GeoreferencedService
+      authority: Hyku::Plugin::Schema::Yaml::GeoreferencedService
   access_restrictions:
     type: string
     predicate: http://id.loc.gov/ontologies/bibframe/AccessPolicy
@@ -1531,7 +1531,7 @@ attributes:
       primary: false
       multiple: true
       type: select
-      authority: HykuAddons::StylePeriodService
+      authority: Hyku::Plugin::Schema::Yaml::StylePeriodService
   repository_space:
     predicate: http://rdfs.org/sioc/ns#Space
     multiple: false
@@ -1543,4 +1543,4 @@ attributes:
       multiple: false
       include_blank: false
       type: select
-      authority: HykuAddons::RepositorySpaceService
+      authority: Hyku::Plugin::Schema::Yaml::RepositorySpaceService

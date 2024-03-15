@@ -9,7 +9,7 @@ form:
   primary: true
   multiple: true
   type: select
-  authority: HykuAddons::ResourceTypesService
+  authority: Hyku::Plugin::Schema::Yaml::ResourceTypesService
   include_blank: true
   input: single_multi_value_select
 
