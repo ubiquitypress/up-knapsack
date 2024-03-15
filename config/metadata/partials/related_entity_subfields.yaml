@@ -23,4 +23,4 @@ related_entity:
         required: false
         multiple: false
         type: select
-        authority: HykuAddons::RelatedEntityTypeService
+        authority: Hyku::Plugin::Schema::Yaml::RelatedEntityTypeService

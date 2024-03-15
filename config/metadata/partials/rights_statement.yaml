@@ -10,4 +10,4 @@ rights_statement:
     multiple: false
     type: select
     include_blank: false
-    authority: HykuAddons::RightsStatementService
+    authority: Hyku::Plugin::Schema::Yaml::RightsStatementService

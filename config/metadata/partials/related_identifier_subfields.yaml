@@ -11,7 +11,7 @@ related_identifier_type:
     required: false
     multiple: false
     type: select
-    authority: HykuAddons::RelatedIdentifierTypeService
+    authority: Hyku::Plugin::Schema::Yaml::RelatedIdentifierTypeService
     include_blank: true
 relation_type:
   type: string
@@ -19,5 +19,5 @@ relation_type:
     required: false
     multiple: false
     type: select
-    authority: HykuAddons::RelationTypeService
+    authority: Hyku::Plugin::Schema::Yaml::RelationTypeService
     include_blank: true

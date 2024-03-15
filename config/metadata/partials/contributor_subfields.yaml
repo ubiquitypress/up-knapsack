@@ -5,7 +5,7 @@ contributor_name_type:
     required: false
     multiple: false
     type: select
-    authority: HykuAddons::NameTypeService
+    authority: Hyku::Plugin::Schema::Yaml::NameTypeService
 contributor_family_name:
   type: string
   form:
@@ -36,7 +36,7 @@ contributor_institutional_relationship:
     required: false
     multiple: false
     type: select
-    authority: HykuAddons::ContributorInstitutionalRelationshipService
+    authority: Hyku::Plugin::Schema::Yaml::ContributorInstitutionalRelationshipService
     attributes:
       multiple: multiple
     display_for:
@@ -88,7 +88,7 @@ contributor_role:
     required: false
     multiple: true
     type: select
-    authority: HykuAddons::RoleService
+    authority: Hyku::Plugin::Schema::Yaml::RoleService
     display_for:
     - Personal
     - Organizational
