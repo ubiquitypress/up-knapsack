@@ -1,0 +1,337 @@
+en:
+  errors:
+    users_forbidden: This User is either private or does not exist
+    invalid_domain: Email domain must not be equal to WorkOs managed domain, %{managed_domain}.
+  work_type_modal:
+    admin_set:
+      title: Admin Set
+  work_type:
+    show:
+      citations:
+        label: Citations
+        ris:
+          link_text: Download as RIS (Zotero, Endnote, Mendeley)
+  simple_form:
+    labels:
+      defaults:
+        official_link: Official URL
+        mesh: MeSH
+        library_of_congress_subject_headings_text: Library of Congress Subject Headings
+        style_period: Style / Period
+    deposit_form:
+      required:
+        label: Please complete this field.
+      form_controls:
+        remove:
+          text: Remove
+        add:
+          text: Add another
+    event_date:
+      label: Event date
+    related_exhibition_date:
+      label: Related exhibition date
+    date_fields:
+      year:
+        label: Select year
+      month:
+        label: Select month if available
+      day:
+        label: Select day if available
+    creator:
+      creator_name_type:
+        label: Creator name type
+        placeholder:
+        help_text: The person or group responsible for the work. Usually this is the author of the content
+      creator_organization_name:
+        label: Creator organisation name
+        placeholder: The British Library
+        help_text: Please enter the organisation's name
+      creator_ror:
+        label: Creator organisation ROR
+        placeholder: e.g. 05gknh003
+        help_text: Please enter the ROR ID
+      creator_grid:
+        label: Creator organisation GRID
+        placeholder: e.g. grid.280362.d
+        help_text: Please enter the GRID ID
+      creator_wikidata:
+        label: Creator organisation Wikidata
+        placeholder: e.g. Q23308
+        help_text: Please enter the Wikidata ID
+      creator_family_name:
+        label: Creator family name
+        placeholder: e.g. Einstein
+        help_text: Please enter the creator's last name/family name
+      creator_given_name:
+        label: Creator given name
+        placeholder: e.g. Albert
+        help_text: Please enter the creator's first name/given name
+      creator_orcid:
+        label: Creator ORCID
+        placeholder: e.g. 0000-1234-5678-9101.
+        help_text: Please enter the creator's ORCID
+      creator_institutional_relationship:
+        label: Creator institutional relationship
+        placeholder:
+        help_text: The relationship of the creator within the institution
+      creator_isni:
+        label: Creator ISNI
+        placeholder: e.g. 0000 1234 5678 9101.
+        help_text: Please enter the creator's ISNI
+      creator_middle_name:
+        label: Middle Name
+        placeholder: Please enter a middle name
+      creator_suffix:
+        label: Suffix
+        placeholder: " "
+      creator_institution:
+        label: Creator Institution
+        placeholder: " "
+      creator_computing_id:
+        label: Creator Computing ID
+        placeholder: " "
+      creator_department:
+        label: Creator Department
+        placeholder: " "
+      creator_role:
+        label: Role
+        placeholder: " "
+      creator_institutional_email:
+        label: Creator institutional email
+        placeholder: " "
+        help_text: Enter the institutional email associated with this creator
+    contributor:
+      contributor_name_type:
+        label: Contributor name type
+        placeholder:
+        help_text: A person or group you want to recognise for playing a role in the creation of the work, but not the primary role
+      contributor_organization_name:
+        label: Contributor organisation name
+        placeholder: Please enter the organisation's name
+        help_text:
+      contributor_ror:
+        label: Contributor organisation ROR
+        placeholder: e.g. 05gknh003
+        help_text: Please enter the ROR ID
+      contributor_grid:
+        label: Contributor organisation GRID
+        placeholder: e.g. grid.280362.d
+        help_text: Please enter the GRID ID
+      contributor_wikidata:
+        label: Contributor organisation Wikidata
+        placeholder: e.g. Q23308
+        help_text: Please enter the Wikidata ID
+      contributor_family_name:
+        label: Contributor family name
+        placeholder: e.g. Einstein
+        help_text: Please enter the contributor's last name/family name
+      contributor_given_name:
+        label: Contributor given name
+        placeholder: e.g. Albert
+        help_text: Please enter the contributor's first name/given name
+      contributor_orcid:
+        label: Contributor ORCID
+        placeholder: e.g. 0000-1234-5678-9101.
+        help_text: Please enter the contributor's ORCID
+      contributor_institutional_relationship:
+        label: Contributor institutional relationship
+        placeholder:
+        help_text:
+      contributor_isni:
+        label: Contributor ISNI
+        placeholder: e.g. 0000 1234 5678 9101.
+        help_text: Please enter the contributor's ISNI
+      contributor_type:
+        label: Contributor role
+        placeholder:
+        help_text: The relationship of the contributor within the instittion
+      contributor_middle_name:
+        label: Middle Name
+        placeholder: Please enter a middle name
+      contributor_suffix:
+        label: Suffix
+        placeholder: " "
+      contributor_institution:
+        label: Contributor Institution
+        placeholder: " "
+      contributor_computing_id:
+        label: Contributor Computing ID
+        placeholder: " "
+      contributor_department:
+        label: Contributor Department
+        placeholder: " "
+    editor:
+      editor_name_type:
+        label: Editor name type
+        placeholder:
+        help_text: The editors that produced this item, in priority order. To add multiple editors, repeat this property
+      editor_organization_name:
+        label: Editor organisation name
+        placeholder: e.g. The British Library
+        help_text: Please enter the organisation's name
+      editor_family_name:
+        label: Editor family name
+        placeholder: e.g. Einstein
+        help_text: Please enter the editor's last name/family name
+      editor_given_name:
+        label: Editor given name
+        placeholder: e.g. Albert
+        help_text: Please enter the editor's first name/given name
+      editor_orcid:
+        label: Editor ORCID
+        placeholder: e.g. 0000-1234-5678-9101
+        help_text: Please enter the editor's ORCID
+      editor_institutional_relationship:
+        label: Editor institutional relationship
+        placeholder:
+        help_text:
+      editor_isni:
+        label: Editor ISNI
+        placeholder: e.g. 0000 1234 5678 9101
+        help_text: Please enter the editor's ISNI
+    funder:
+      label: Funder
+      funder_name:
+        label: Funder name
+        placeholder: e.g. Arts and Humanities Research Council
+        help_text: |
+          Please start typing the funder's name, then select from the dropdown list
+      funder_doi:
+        label: Funder DOI
+        placeholder: |
+          eg: 10.1093/ajae/aaq063
+        help_text: |
+          Please enter the Funder DOI
+      funder_isni:
+        label: Funder ISNI
+        placeholder: e.g. 1234567899999799
+        help_text: |
+          Please enter the Funder <a href="https://isni.org/" target="_blank">ISNI</a>
+      funder_ror:
+        label: Funder ROR
+        placeholder: e.g. 1234567899999799
+        help_text: |
+          Please enter the Funder <a href="https://ror.org/" target="_blank">ROR</a>
+      funder_award:
+        label: Funder Awards
+        placeholder: e.g. 20201099
+        help_text: |
+          Please enter the award number
+    related_identifier:
+      related_identifier:
+        label: Related identifier
+        placeholder: ""
+        help_text: Globally unique identifiers, such as ISNI, ARK etc. For ISBN, ISSN and EISSN, use the separate fields.
+      related_identifier_type:
+        label: Type of related identifier
+        placeholder:
+        help_text: If you have listed a related identifier, then please select what type.
+      relation_type:
+        label: Relationship of related identifier
+        placeholder:
+        help_text: If you have listed a related identifier, then state its relationship to the work, e.g. cites or continues the work
+    alternate_identifier:
+      alternate_identifier:
+        label: Alternate identifier
+        placeholder: ""
+        help_text: |
+          May be used for local identifiers such as project codes, e.g. XTE12. <br>
+          Please include a prefix e.g. 'Project ID = XTE12' so a reader can distinguish between multiple identifiers
+      alternate_identifier_type:
+        label: Type of alternate identifier
+        placeholder: ""
+        help_text: State the type of alternate identifier.
+    related_entity:
+      related_entity:
+        label: Related Entity
+        placeholder: ""
+        help_text: Please add any related entity.
+      related_entity_type:
+        label: Type of related entity
+        placeholder:
+        help_text: If you have listed a related entity, then please select what type.
+  stats:
+    reports:
+      title: Ubiquity Analytics
+      heading: Repository Reports
+      intro: Select a report to display from the dropdown and it will appear here.
+      no_reports: No reports have been added yet.
+      label: Available Reports
+
+  settings:
+    titles:
+      gds_reports: Dashboard GDS Charts
+    helptexts:
+      gtm_id: The ID of your Google Tag Manager account
+      contact_email: Email recipient of messages sent via the contact form
+      weekly_email_list: List of email addresses to email the weekly report. Leave a single space between each email
+      monthly_email_list: List of email addresses to email the monthly report. Leave a single space between each email
+      yearly_email_list: List of email addresses to email the yearly report. Leave a single space between each email
+      email_format: Set a list of email domains that are allowed sign up to this repository e.g (@ubiquitypress.com @gmail.com). Leave a single space between each domain.
+      allow_signup: Allow users to sign up to your repository
+      enable_oai_metadata: Enable or disable OAI link
+      shared_login: Enable or disable shared login
+      file_size_limit: This should be set to 536870912000
+      locale_name: |
+        The name of the tenant specific locale suffix added to their locale.yml files. Only alphabetic characters should be added, no symbols or numbers, these will then be capitalised.
+      oai_admin_email: OAI endpoint contact email address
+      gds_reports: |
+        List of Google Data Studio charts title, height, width and URL's to be displayed in the Dashboard. The height and width are used to create a ratio which is applied in an attempt to remove scroll bars and automatically adjust the height depending on the report width. <br><br>One report per line, comma seperated values, i.e.<br><br>
+
+        Title, height in pixels, width in pixels URL for Goggle Data Studio report<br>
+        Users and Works, 1189, 892, https://datastudio.google.com/embed/reporting/.../page/Nnd2B<br>
+        Most Cited Works, 950, 710, https://datastudio.google.com/embed/reporting/.../page/Nnd2B
+  hyrax:
+    notifications:
+        workflow:
+          changes_required:
+            message: |-
+                %{link} requires additional changes before approval.
+                 '%{comment}'
+          deposited:
+            message: "%{link} was approved by %{user}. %{comment}"
+          pending_review:
+            message: "%{link} was deposited by %{user} and is awaiting approval %{comment}"
+    works:
+      form:
+        autofill:
+          searchbox:
+            hint: If you are adding metadata for a work that already has a DOI, then enter the DOI here and press the button, and we will look up the metadata in DataCite and Crossref and populate the description
+            placeholder: 10.1629/uksg.236
+          button:
+            long_text: Fetch metadata from CrossRef or DataCite with DOI
+            disable_with: Autofilling form...
+            confirm: |
+              Warning: this operation will replace any existing description fields.
+    collections:
+      show:
+        item_count: Items
+    controls:
+      shared_search: Shared search
+    file_sets:
+      actions:
+        read_and_annotate: Read and annotate
+      actions_list:
+        header: Select an action
+        delete: Delete
+        download: Download
+        edit: Edit
+        read_and_annotate: Read and annotate
+        versions: Versions
+      actions_button:
+        delete: Delete
+        download: Download
+        edit: Edit
+        read_and_annotate: Read and annotate
+        versions: Versions
+  bulkrax:
+    validation_issues:
+      attribute: "Attribute"
+      original_value: "Original value"
+      current_value: "Current Value"
+  mailboxer:
+    message_mailer:
+      subject_new: "%{tenant_name}: %{subject}"
+      subject_reply: "%{tenant_name}: %{subject}"
+    notification_mailer:
+      subject: "%{subject}"

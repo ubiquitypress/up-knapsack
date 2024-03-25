@@ -1,0 +1,24 @@
+en:
+  hyrax:
+    icons:
+      ltu_image_artifact: "fa fa-file-text-o"
+    select_type:
+      ltu_image_artifact:
+        description: "Ltu Image Artifact"
+        name: "Ltu Image Artifact"
+  simple_form:
+    creator:
+      creator_culture:
+        label: Culture
+        placeholder: "Add culture"
+      creator_date:
+        label: Dates
+        placeholder: "Add dates"
+    labels:
+      defaults:
+        abstract: Abstract / Description
+        media: Material
+        extent: Measurements
+        alt_class: Work Type
+        subject_text: LC Subject Heading
+        add_info: Notes

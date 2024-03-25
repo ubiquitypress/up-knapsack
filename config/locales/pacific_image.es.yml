@@ -1,0 +1,10 @@
+es:
+  hyrax:
+    icons:
+      pacific_image:     'fa fa-file-text-o'
+    select_type:
+      pacific_image:
+        # TODO: translate `human_name` into Spanish
+        description:        "Image trabajos"
+        name:               "Image"
+        # TODO: translate `human_name` into Spanish

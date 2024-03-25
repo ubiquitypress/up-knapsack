@@ -1,0 +1,11 @@
+es:
+  hyrax:
+    icons:
+      ltu_serial:     'fa fa-file-text-o'
+    select_type:
+      ltu_serial:
+        # TODO: translate `human_name` into Spanish
+        # Serial trabajos
+        description:        ""
+        name:               "Serial"
+        # TODO: translate `human_name` into Spanish

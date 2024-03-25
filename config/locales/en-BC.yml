@@ -1,0 +1,25 @@
+en-BC:
+  # GenericWork help text and form labels
+  hyrax:
+    select_type:
+      bc_article:
+        name: Article
+        description: ""
+      bc_book:
+        name: Book
+        description: ""
+      bc_chapters_and_book_section:
+        name: Chapters And Book Sections
+        description: ""
+      bc_archival_and_legal_material:
+        name: Archival And Legal Materials
+        description: ""
+      bc_image:
+        name: Image
+        description: ""
+      bc_presentation:
+       name: Presentation
+       description: ""
+      bc_time_based_media:
+       name: Time Based Media
+       description: ""
