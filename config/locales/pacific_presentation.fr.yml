@@ -1,0 +1,8 @@
+fr:
+  hyrax:
+    icons:
+      pacific_presentation:     'fa fa-file-text-o'
+    select_type:
+      pacific_presentation:
+        description:        "Presentation œuvres"
+        name:               "Presentation"

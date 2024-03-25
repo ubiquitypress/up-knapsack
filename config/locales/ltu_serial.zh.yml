@@ -1,0 +1,11 @@
+zh:
+  hyrax:
+    icons:
+      ltu_serial: "fa fa-file-text-o"
+    select_type:
+      ltu_serial:
+        # TODO: translate `human_name` into Chinese
+        # Serial 作品
+        description:  ""
+        name:  "Serial"
+        # TODO: translate `human_name` into Chinese

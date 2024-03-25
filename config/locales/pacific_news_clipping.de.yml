@@ -1,0 +1,8 @@
+de:
+  hyrax:
+    icons:
+      pacific_news_clipping:     'fa fa-file-text-o'
+    select_type:
+      pacific_news_clipping:
+        description:        "News clipping Werke"
+        name:               "News Clipping"

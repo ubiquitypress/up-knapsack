@@ -1,0 +1,8 @@
+de:
+  hyrax:
+    icons:
+      pacific_text_work:     'fa fa-file-text-o'
+    select_type:
+      pacific_text_work:
+        description:        "Text work Werke"
+        name:               "Text Work"

@@ -1,0 +1,8 @@
+en:
+  hyrax:
+    icons:
+      redlands_article:     'fa fa-file-text-o'
+    select_type:
+      redlands_article:
+        description:        "Short works published in journals, magazines, or newspapers"
+        name:               "Article"

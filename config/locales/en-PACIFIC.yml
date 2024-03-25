@@ -1,0 +1,80 @@
+en-PACIFIC:
+  hyrax:
+    select_type:
+      pacific_article:
+        name: Article
+        description: ""
+      pacific_book:
+        name: Book
+        description: ""
+      pacific_book_chapter:
+        name: Book Chapter
+        description: ""
+      pacific_news_clipping:
+        name: News Clipping
+        description: ""
+      pacific_image:
+        name: Image
+        description: ""
+      pacific_presentation:
+       name: Presentation
+       description: ""
+      pacific_media:
+       name: Media
+       description: ""
+      pacific_text_work:
+        name: Text Work
+        description:
+      pacific_uncategorized:
+        name: Uncategorized
+        description: ""
+      pacific_thesis_or_dissertation:
+        name: Thesis Or Dissertation
+        description: ""
+  work_type_modal:
+    admin_set:
+      title: Select Collection
+  simple_form:
+    creator:
+      creator_family_name:
+        label: Last Name
+      creator_given_name:
+        label: First Name
+      creator_institutional_relationship:
+        label: Creator Role
+        placeholder:
+        help_text: The role of the creator
+      creator_institution:
+        label: Institution
+        placeholder: " "
+    contributor:
+      contributor_family_name:
+        label: Last Name
+      contributor_given_name:
+        label: First Name
+      contributor_type:
+        label: Contributor role
+        placeholder:
+        help_text: The relationship of the contributor within the instittion
+      contributor_isni:
+        label: Contributor ISNI
+      contributor_institutional_relationship:
+        label: Contributor Role
+      contributor_institution:
+        label: Institution
+        placeholder: " "
+    labels:
+      defaults:
+        org_unit: Department
+        related_url: Source
+        keywords: Keyword
+        irb_status: IRB Status
+        irb_number: IRB Number
+        version_number: Version
+        official_link: DOI
+    hints:
+      defaults:
+        org_unit: Enter your department, center, or group at Pacific
+        related_url: " "
+        version_number: " "
+        official_link: A persistent digital object identifier, if your item already has one then enter this here in the following model e.g. 10.21250/tcq y
