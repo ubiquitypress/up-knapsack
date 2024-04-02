@@ -83,7 +83,10 @@ module HykuKnapsack
 
       #my_engine_root = HykuKnapsack::Engine.root.to_s
       #paths = ActionController::Base.view_paths.collect{|p| p.to_s}
-      
+
+      # Append our locales so they have precedence
+      I18n.load_path += Dir[HykuKnapsack::Engine.root.join("config", "locales", "*.{rb,yml}")]
+    
       # Remove the Hyrax Orcid JSON Actor as we have our own - this should not be namespaced
       Hyrax::CurationConcern.actor_factory.middlewares.delete(Hyrax::Actors::Orcid::JSONFieldsActor)
 
